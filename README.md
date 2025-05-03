@@ -59,7 +59,6 @@ Evaluation	                          LangSmith
 Embeddings / Vector DB	        OpenAI Embeddings + FAISS
 
 ## How to Run:
-
 1. Clone the repo:
 
 2.Install dependencies:
