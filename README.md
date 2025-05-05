@@ -60,6 +60,13 @@ Embeddings / Vector DB	        OpenAI Embeddings + FAISS
 
 ## How to Run:
 1. Clone the repo:
+   
+```bash
+# Your bash commands go here
+python3 main.py
+pip install -r requirements.txt
+```
+
 
 2.Install dependencies:
 
