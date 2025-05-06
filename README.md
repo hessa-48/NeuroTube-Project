@@ -2,8 +2,6 @@
 ### An intelligent, multimodal assistant that extracts knowledge from YouTube videos using advanced AI tools. It transcribes, summarizes, answers questions, generates mind maps, and converts insights into speech — all in one streamlined app.
 
 
-
-
 ## 🚀 Features
 
 
@@ -26,7 +24,7 @@
 
 
 
-##  Use Cases
+## 📚 Use Cases
 
 1.Educational content exploration
 
@@ -38,11 +36,12 @@
 
 
 
-## How It will look:
 
-**Upload or provide a YouTube video
 
-The app:
+## 🎥 **Demo Video**  
+[Click here to watch the final product on Google Drive](https://drive.google.com/drive/folders/1LqcV8EsAQzATRLV4QEUJos5pcZwVPnDA?usp=drive_link)
+
+## As demonstrated in the video, the bot will:
 
 Transcribes the audio using Whisper
 
@@ -55,6 +54,8 @@ Generates a mind map from the summary
 Reads the output aloud using TTS
 
 All components are orchestrated using LangChain Agents and Toolchains, with evaluation via LangSmith and vector storage (e.g., FAISS or ChromaDB).
+
+
 
 
 
@@ -75,6 +76,8 @@ All components are orchestrated using LangChain Agents and Toolchains, with eval
 | `langchain` | Framework for developing applications powered by LLMs. |
 | `langchain_openai` | Integrates LangChain with OpenAI models like GPT-4. |
 | `FAISS` | Vector database for efficient similarity search and retrieval. |
+
+
 
 
 
@@ -112,9 +115,10 @@ neurotube_project/
 ├── neurotube_project.py       # Main Python script for the project
 ├── README.md
 ├── requirements.txt           # List of required Python packages
-└── deploy_app.ipynb          # Jupyter notebook for deployment process
+├── deploy_app.ipynb          # Jupyter notebook for deployment process
 └── .env (optional)         # For environment variables
 ```
+
 
 ## ❗ Security Note
 Do not commit your API keys in code. Use environment variables or secret management tools.
